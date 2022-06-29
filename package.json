@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-zendesk",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "An Ember CLI Addon to add support for Zendesk",
   "keywords": [
     "ember-addon",
@@ -8,10 +8,7 @@
     "zendesk-snippet",
     "ze-snippet"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/TailorBrands/ember-cli-zendesk.git"
-  },
+  "repository": "https://github.com/TailorBrands/ember-cli-zendesk.git",
   "license": "MIT",
   "author": "Tailor Brands <sloths@tailorbrands.com>",
   "directories": {
@@ -27,7 +24,7 @@
     "lint:js": "eslint . --cache",
     "lint:js:fix": "eslint . --fix",
     "start": "ember serve",
-    "test": "npm-run-all lint test:*",
+    "test": "ember test",
     "test:ember": "ember test",
     "test:ember-compatibility": "ember try:each"
   },
@@ -86,5 +83,6 @@
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+  "main": "index.js"
 }
