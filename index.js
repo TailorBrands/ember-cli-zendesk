@@ -5,7 +5,9 @@ module.exports = {
 
   contentFor: function (type, config) {
     if (type === 'head' && config.zendesk && config.zendesk.key) {
-      return '<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key={{key}}"></script><script>';
+      const script = '<script id="ze-snippet"></script>';
+      document.getElementById("ze-snippet").src = "https://static.zdassets.com/ekr/snippet.js?key=" + config.zendesk.key;
+      return script;
     }
   },
 };
