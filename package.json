@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-zendesk",
-  "version": "1.0.4",
+  "version": "1.0.3",
   "description": "An Ember CLI Addon to add support for Zendesk",
   "keywords": [
     "ember-addon",
