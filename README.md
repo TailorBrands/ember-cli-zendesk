@@ -42,5 +42,5 @@ This is completely unofficial and is not related to Zendesk in any way.
 
 This project is licensed under the [MIT License](LICENSE.md).
 
-##About Tailor Brands
+## About Tailor Brands
 [Check us out!](https://www.tailorbrands.com)
